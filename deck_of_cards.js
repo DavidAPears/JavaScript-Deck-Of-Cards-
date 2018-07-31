@@ -36,10 +36,14 @@ class Deck{
   deal(){
     return this.deck.pop();
   }
-  // console.log  : How do I print this single card?
+
 }
 
+
 const deck1 = new Deck();
+
+console.log(deck1.deck.pop())
+// output: dealt Cards
 console.log(deck1.deck);
 // output: shuffled deck
 deck1.reset();
